@@ -1,0 +1,167 @@
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Style for action buttons */
+button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* styles.css */
+
+/* Modal styles */
+.modal {
+  display: block; /* Show the modal */
+  position: fixed; /* Position the modal */
+  z-index: 1; /* Ensure it appears above everything */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scrolling */
+  background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+}
+
+.modal-content {
+  background-color: #fefefe; /* White background */
+  margin: 15% auto; /* Center the modal vertically */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Set the width of the modal */
+}
+
+/* Close button styles */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Project Form styles */
+.project-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-form label {
+  margin-bottom: 10px;
+}
+
+.project-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.project-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.project-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Create Project button style */
+.create-project-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.create-project-btn:hover {
+  background-color: #45a049;
+}
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.add-task-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 10px; /* Adjust the gap as needed */
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remove-task-btn {
+  margin-left: 5px; /* Adjust the gap as needed */
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-task-btn:hover {
+  background-color: #0056b3;
+}
+.search-bar {
+  margin-bottom: 10px;
+}
+
+.search-bar input[type="text"] {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.search-bar input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
